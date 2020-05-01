@@ -1,2 +1,0 @@
-# webstudy-feidian
-webstudy-feidian
