@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        td {text-align: center; background-color:antiquewhite; border:solid #000 1px}
+        tr {height: 60px;}
+        table {border-collapse:collapse; border: none;}
+    </style>
+    <title>Document</title>
+</head>
+<body style="background-color:aliceblue;">
+    <form action="">
+        <table ><!--style="border: 1px; border-color:aqua; border-collapse:separate;">-->
+            <colgroup span="9" width="200px">
+            <tr>
+                <td>文本输入框</td>
+                <td>
+                    <input type="text" name="1">
+                </td>
+            </tr>
+            <tr>
+                <td>密码输入框</td>
+                <td>
+                    <input type="password" name="2">
+                </td>
+            </tr>
+            <tr>
+                <td>单选框</td>
+                <td>
+                    <input type="radio" name="3" value="点我">
+                    <input type="radio" name="3" value="别点我">
+                </td>
+            </tr>
+            <tr>
+                <td>复选框</td>
+                <td>
+                    <input type="checkbox" name="4" value="今日话题">
+                    <input type="checkbox" name="4" value="视觉焦点">
+                    <input type="checkbox" name="4" value="财经">
+                    <input type="checkbox" name="4" value="汽车">
+                    <!--
+                        复选框配合js的onclick事件句柄用这里我还没学js坑以后补
+                    -->
+                </td>
+            </tr>
+            <tr>
+                <td>普通按纽</td>
+                <td>
+                    <input type="button" name="5" value="普通按钮">
+                    <!--
+                        普通按纽配合js的onclick事件句柄用这里我还没学js坑以后补
+                    -->
+                </td>
+            </tr>
+            <tr>
+                <td>提交按纽</td>
+                <td>
+                    <input type="submit" name="6" value="提交">
+                </td>
+            </tr>
+            <tr>
+                <td>重置按纽</td>
+                <td>
+                    <input type="reset" name="7" value="重置">
+                </td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>
+                    <input type="number" name="8" value="5201314">
+                </td>
+            </tr>
+            <tr>
+                <td>range范围</td>
+                <td>
+                    <input type="range" name="9">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

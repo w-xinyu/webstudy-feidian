@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        tr {height: 40px;}
+    </style>
+    <title>表单demo1</title>
+</head>
+<body>
+    <!--
+        首先表单是把table放在form标签下面的
+        form标签后面必须有 action=""一个地址，表示表单提交的地址
+    -->
+    <form action="https://i.qq.com/?s_url=http%3A%2F%2Fuser.qzone.qq.com%2F924806296">
+        <table border="1px" cellspacing="0">
+            <colgroup width="600px" span="4">
+            <tr>
+                <td rowspan="4" style="text-align: center;">总体信息</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">用户名:</td>
+                <td>
+                    <input type="text" name="loginname">
+                    <!--
+                        然后第二个注意的是input必须有name属性，
+                        这个name的值是自己定的，具体效果见图示表单demo12
+                    -->
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">密码:</td>
+                <td>
+                    <input type="password" name="pwd">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <input type="submit" value="提交">
+                    <input type="reset" value="重置">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
