@@ -15,8 +15,10 @@
             <col width="100px">
             <col width="100px">
             <col width="100px">
+            <!--这里col设置每一个列的宽度，一共七个列所以写了7个-->
             <tr>
                 <td colspan="7" style="background-color: aqua;">个人简历</td>
+                <!--colspan是设置列合并的，这里7列合并起来-->
             </tr>
             <tr>
                 <td>姓名</td>
@@ -32,19 +34,18 @@
                 <td></td>
                 <td>籍贯</td>
                 <td colspan="2"></td>
-                <td></td>
-                <td rowspan="3" style="background-color: aquamarine;">照片</td>
+                <td rowspan="3" colspan="2" style="background-color: aquamarine;">照片</td>
+                <!--rospan设置行单元格合并，这里使用了三行两列的单元格合并，下方合并上来的四个个单元表格要删去-->
             </tr>
             <tr>
                 <td>电话</td>
                 <td></td>
                 <td>政治面貌</td>
                 <td colspan="2"></td>
-                <td></td>
             </tr>
             <tr>
                 <td>毕业院校</td>
-                <td colspan="5"></td>
+                <td colspan="4"></td>
             </tr>
             <tr>
                 <td>求职意向</td>
