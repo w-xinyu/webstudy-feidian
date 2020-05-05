@@ -1,3 +1,7 @@
+<!--
+    tabledemo2相较于1就是把col换成了colgroup，将表头个人简历用th代替td，th=加粗并水平居中的td
+-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -12,6 +16,7 @@
                 border是设置表格的边缘线，不写就看不到。
                 写了默认是空心的线，加了cellspacing="0"就成了实心线
             -->
+            <!--
             <col width="100px">
             <col width="100px">
             <col width="100px">
@@ -19,10 +24,17 @@
             <col width="100px">
             <col width="100px">
             <col width="100px">
+            -->
             <!--这里col设置每一个列的宽度，一共七个列所以写了7个-->
+            
+            <colgroup span="7", width="100px">
+
             <tr>
+                <!--
                 <td colspan="7" style="background-color: aqua;">个人简历</td>
+                -->
                 <!--colspan是设置列合并的，这里7列合并起来-->
+                <th colspan="7" style="background-color: aqua;">个人简历</td>
             </tr>
             <tr>
                 <td>姓名</td>
