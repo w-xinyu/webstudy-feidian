@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <h1 style="color:tomato;">页面使用CSS的几种方法</h1>
+    <ol>
+        <li style="color: blueviolet;">
+            <dl>
+                <dt>外部样式表:</dt>
+                <dd>HTML文档内在head标签写入link标签<br/>&lt;head&gt;&lt;link css/demo.css&gt;&lt;/head&gt;</dd>
+            </dl>
+        </li>
+        <li style="color: brown;">
+            <dl>
+                <dt>内部样式表:</dt>
+                <dd>
+                    &lt;head&gt;&lt;style&gt; css样式&lt;/style&gt;&lt;/head&gt;
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl style="color: blue;">
+                <dt>内联样式表:</dt>
+                <dd>
+                    &lt;div style=""&gt;&lt;/div&gt;
+                </dd>
+            </dl>
+        </li>
+        <li style="color: deeppink;">
+            <dl>
+                <dt>外部导入</dt>
+                <dd>@import（不推荐使用）</dd>
+            </dl>
+        </li>
+    </ol>
+    <hr/>
+    <h1>CSS实例</h1>
+    <p>
+        css规则由俩个主要部分构成：选择器，以及一条或者多条声明 比如：<br/>
+        <p style="font-size: 30px; color: maroon;">h1 {color:blue; font-size:12px;}</p>
+        <br/>其中<b>h1</b>就是一个选择器，color和font-size是property，blue和12px是值
+        <br/>选择器通常是您需要改变样式的HTML元素。
+        <br/>每条声明由一个属性和一个值组成。
+        <br/>属性（property）是您希望设置的样式属性（style attribute）。每个属性有一个值。属性和值被冒号分隔开。
+        <br/>
+    </p>
+    <hr/>
+    <h1>CSS常用的选择器</h1>
+    <ol>
+        <li>#ID选择器</li>
+        <li>.类(class)选择器</li>
+        <li>tag标签选择器</li>
+        <li>后代选择器</li>
+        <li>子元素选择器</li>
+        <li>分组选择器</li>
+        <li>相邻兄弟选择器</li>
+        <li>伪类</li>
+        <li>伪元素</li>
+        <li>通用选择器</li>
+    </ol>
+    <p style="color: saddlebrown; font-size: large; font-weight:bold;">具体的实例看同层的文件夹（CSS基础）下的文件夹（CSS选择器实例）</p>
+    <hr/>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/*分组选择器*/
+/*
+div,span,p {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+div{
+    background-color: aqua;
+}
+
+.test{
+    font-size: 40px;
+    width: 300px;
+}
+
+#myp {
+    height: 100px;
+    background-color: blue;
+}
+
+.test1 {
+    border-radius: 20px;
+}
+*/
+/*边框圆角属性*/
+
+
+/*相邻兄弟选择器*/
+/*
+.test2 + span {
+    font-size: 50px;
+    color: red;
+}
+
+.test2 + span + span {
+    font-size: 50px;
+    color: blue;
+}
+*/
+
+/*伪类*/
+/*
+.demo {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+/*这个就是一个伪类*/
+/*
+.demo:hover {
+    background-color: yellow;
+    border-radius: 100px;
+}
+*/
+/*鼠标划过的时候的demo*/
+/*
+.test3 {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul>li:nth-child(1), ul>li:nth-child(3){
+    background-color: yellow;
+}
+
+ul>li:nth-child(4) {
+    background-color: blue;
+}
+*/
+
+/*
+input:disabled {
+    background-color: red;
+}
+input:read-only {
+    background-color: blue;
+}
+
+input:checked {
+    background-attachment: blue;
+    width: 100px;
+    height: 100px;
+}
+*/
+/*
+设置第一个字
+p:first-letter {
+    font-size: 30px;
+    color: yellowgreen;
+}
+设置第一行字
+p:first-line {
+    background-color: antiquewhite;
+}
+在元素内容前面插入新的内容，同样的还有after是在元素后面插入新的内容
+.test4:before {
+    content: "hello";
+}
+/*

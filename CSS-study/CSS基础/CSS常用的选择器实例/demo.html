@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选择器</title>
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+    <!--#ID选择器-->
+    <div id="myDiv" class="classSelector">
+        #ID选择器
+    </div>
+    <hr/>
+
+    <!--.类(class)选择器-->
+    <!--
+        在操作CSS的时候，类选择器用的非常多
+        如果我想给多个元素用同样的样式，这个时候就可给他们加上一个共同的类
+    -->
+    <span class="classSelector">
+        class选择器
+    </span>
+    <hr/>
+
+    <!--tag标签选择器-->
+    <p style="color: blue;">tag标签选择器</p>
+    <hr/>
+
+    <!--后代选择器-->
+    <!--对前面元素的后代元素设定样式-->
+    <div>
+        <span>后代选择器</span><br>
+        <span>我是内部的span元素</span>
+        <div>
+            <span>我是最内部的span元素</span>
+        </div>
+    </div>
+    <hr/>
+
+    <!--子元素选择器-->
+    <!--这个时候我想将一个div下面的span单独用一个样式来处理-->
+    <div class="outer">
+        <span>子元素选择器</span>
+    </div>
+
+
+</body>
+</html>

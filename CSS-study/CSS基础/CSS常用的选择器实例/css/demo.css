@@ -1,0 +1,28 @@
+/*#ID选择器*/
+div {
+    width: 200px;
+    height: 100px;
+}
+
+#myDiv {
+    background-color: wheat;
+    text-align: center;
+}
+
+/*class选择器*/
+.classSelector {
+    color: violet;
+    font-size: 20px;
+}
+
+/*后代选择器*/
+div span {
+    color: crimson;
+    font-size: larger;
+}
+/*这个时候会选择所有div下面的所有span，包括嵌套的div*/
+
+/*子元素选择器*/
+.outer>span {
+    color: darkkhaki;
+}
