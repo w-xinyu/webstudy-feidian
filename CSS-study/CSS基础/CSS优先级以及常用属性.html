@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优先级和常用属性</title>
+    <style type="text/css">
+        div {
+            background-color: red !important;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+
+        .demo {
+            background-color: purple;
+        }
+        
+        #test {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>常用的CSS属性</h1>
+    <ol>
+        <li>color字体颜色</li>
+        <li>background-color背景颜色</li>
+        <li>font-size字体大小</li>
+        <li>width元素宽度</li>
+        <li>height元素高度</li>
+        <li>border-radius边框弧度</li>
+        <li>font-weight字体的加粗程度</li>
+    </ol>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等等
+    <hr>
+
+    <h1>CSS继承就是</h1>
+    <p>一个标签的子标签或者再往下的子标签会继承该标签的样式</p>
+    <p><br>但是子标签单独设置的样式优先级高于其父标签的样式</p>
+    <hr>
+
+    <h1>CSS优先级</h1>
+    <p>!important&lt;行内的style&lt;id&lt;id&lt;class&lt;tag</p>
+    <p>!important就是在该属性后面加上!important，这样该属性就是最高优先级</p>
+    <p>比如举一个例子:</p>
+
+    <div style="background-color: yellow;" id="test" class="demo">
+        hello world!
+    </div>
+</body>
+</html>

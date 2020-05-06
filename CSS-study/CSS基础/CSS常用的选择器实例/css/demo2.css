@@ -84,6 +84,9 @@ input:checked {
     height: 100px;
 }
 */
+
+/*伪元素*/
+
 /*
 设置第一个字
 p:first-letter {
