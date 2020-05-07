@@ -1,0 +1,32 @@
+body {
+      font:italic bold 30px/200px arial;
+}
+
+.font {
+    font-variant: small-caps;
+}
+
+.font1 {
+    font-style: italic;
+}
+
+i {
+    font-style:normal;
+    font-weight: bold;
+}
+
+.test {
+    // font-size: 20px;
+}
+
+.inner {
+    font-size:2em;
+}
+
+.test1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color:#fff;
+
+}

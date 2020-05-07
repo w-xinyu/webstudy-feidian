@@ -1,0 +1,49 @@
+body {
+    line-height:30px;
+    // text-indent:50px;
+}
+
+.txt {
+    width: 400px;
+    background-color: blue;
+    // color:white;
+    color:yellow;
+    text-indent: 30px;
+    word-spacing: 0px;
+    white-space:nowrap;
+    // color:rgb(255,0,0);
+    // line-height: 20px;
+}
+
+.one-txt {
+    width: 300px;
+    height: 300px;
+    background-color:red;
+    color:#fff;
+    line-height:300px;
+    // text-align:right;
+}
+
+#bd {
+    text-decoration: none;
+}
+
+#bd:hover {
+    text-decoration:underline;
+}
+
+.wy {
+    color:blue;
+    text-decoration:line-through;
+}
+
+
+.test {
+    word-spacing: 0;
+    text-transform: uppercase;
+}
+
+.test1 {
+    word-spacing: 0;
+    letter-spacing:0;
+}

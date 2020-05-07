@@ -1,0 +1,8 @@
+body {
+  // background-image: url('../img/banner.jpg');
+  // background-repeat: no-repeat;
+  // background-position: right top;
+  // background-attachment: fixed;
+  background:url('../img/banner.jpg') no-repeat right top fixed;
+  // height:600px;
+}
