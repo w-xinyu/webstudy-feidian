@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>盒模型内外边距详解</title>
+    <style type="text/css">
+        .test {
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            padding: 10px 20px 30px 40px;
+            text-align: center;
+            line-height: 100px;
+            margin: 0 auto;
+            /*
+            div盒子水平居中
+            */
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>盒模型内边距详解</h1>
+    <hr>
+
+    <h2>详解盒模型组成</h2>
+    <li>padding属性规定了盒子的内边距</li>
+    <li>border属性规定了盒子的边框</li>
+    <li>margin属性规定了盒子的外边距</li>
+    <li>上述属性均可一个方向内单独进行设置</li>
+    <hr>
+
+    <h2>内边距 - padding</h2>
+    <p>元素的内边距在边框和内容区之间。控制该区域最简单的属性是padding属性。padding属性接受长度值或百分比值,但不允许使用负值。</p>
+    <li>单独属性方式:padding-top : 5px ;padding-right:5px;padding-bttom:5px;padding-left:5px;</li>
+    <li>简写方式:直接padding:5px 10px 15px 20px，对应上右下左，写俩个的时候分别对应上下和左右，写三个对应上、左右、下</li>
+    <div class = "test">
+        你好！
+    </div>
+    <hr>
+
+    <h2>边框 - border</h2>
+    <p>元素的边框( border )是围绕元素内容和边距的一条或多条线。border 属性允许你规定元素边框的样式,宽度和颜色。每个边框都有这三个部分组成border- style边框样式常用属性值 : dotted , dashed , solid</p>
+    <li>简写方式:border- style:solid dotted dashed double ;</li>
+    <li>单独属性方式:border-top-style;border-right-style;border- bottom-style;border-left-style</li>
+    <br>
+
+    <h2>边框 - border-width</h2>
+    <p>border-width规定了边框的宽度</p>
+    <li>简写方式:border-width:5px;</li>
+    <li>单独属性方式:border-top-width;border-right-width;border-bottom-  width;border-left-width</li>
+    <li>边框为无的正确写法:border:none; //推荐border:0;</li>
+    <br>
+
+    <h2>边框 - border-color</h2>
+    <p>border-color规定了边框颜色</p>
+    <li>简写方式:border-color:颜色值;</li>
+    <li>单独属性方式:如border-top-color</li>
+    <li>边框颜色透明:border-color:transparent; 或者单独设置也可以</li>
+    <hr>
+
+    <h2>外边距 margin</h2>
+    <p>围绕在元素边框的空白区域是外边距。设置外边距会在元素外创建额外的"空白”。设置外边距的最简单的方法就是使用margin属性，这个属性接受任何长度单位，百分值甚至负值。</p>
+    <li>简写方式和padding差不多</li>
+    <li>单独属性方式也差不多</li>
+    <li>有固定的宽度块元素的水平居中，可以使用margin: *px auto的方式，如上面的盒子例子</li>
 </body>
 </html>

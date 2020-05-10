@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in QQmail</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+        }
+        .header {
+            width: 100%;
+            height: 63px;
+            background-color: #EFF4FA;
+            border-bottom: 1px solid #d6dfea;
+        }
+        .header a {
+            margin-left: 30px;
+            margin-top: 14px;
+        }
+        
+        .header img{
+            width: 200px;
+            height: 60px;
+        }
+
+        .header div{
+            float: right;
+            display: inline-block;
+            padding-right: 40px;
+            margin-top: 20px;
+            margin-right: 12px;
+            text-align: right;
+        }
+
+        .header div a {
+            color: #1D5494;
+            text-decoration: none;
+            margin-left: 0px;
+        }
+        
+        .header div a:hover{
+            text-decoration: underline;
+        }
+
+        .content {
+            padding:0 24px;
+            margin: 32px auto;
+            height: 414px;
+            width: 960px;
+        }
+
+        .content_wrapper {
+            padding-top: 40px;
+            margin: 0 20px 60px 25px;
+            width: 520px;
+            height: 400px;
+            background-image: url('login_picture.jpg');
+            background-position: right;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        .text {
+            display: inline-block;
+        }
+        
+        #text-title {
+            line-height: 26px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            font-weight: normal;
+            color: #6f95c8;
+        }
+
+        .text p{
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 24px;
+            text-align: left;
+        }
+
+        .login {
+            float: right;
+            height: 374px;
+            width: 330px;
+            margin-top: 40px;
+            border: 1px solid #909eaf;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .login .choose-ways {
+            border-bottom: 1px solid #909eaf;
+            height: 50px;
+            line-height: 50px;
+            background-color: #EFF4FA ;
+        }
+
+        .login .choose-ways li {
+            list-style-type: none;
+            display:block;
+            height:50px;
+            font-size:16px;
+            font-family: "微软雅黑";
+            color:gray;
+        }
+
+        .login .login_form {
+            margin: 44px 22px;
+        }
+
+        #login_text {
+            border: 1px solid rgb(144,158,175);
+            border-radius: 5px;
+            width: 262px;
+            height: 18px;
+            margin-bottom: 12px;
+            padding: 10px 10px 10px 10px;
+            font-size: 16px;
+        }
+
+        #login_password {
+            border-radius: 5px;
+            border: 1px solid rgb(144,158,175);
+            width: 262px;
+            height: 18px;
+            margin-bottom: 12px;
+            padding: 10px 10px 10px 10px;
+            font-size: 16px;
+        }
+
+        #login_remember {
+            border-radius: 5px;
+            border: 1px solid rgb(144,158,175);
+            height: 18px;
+            width: 18px;
+            margin-bottom: 20px;
+        }
+
+        #login_submit {
+            height: 40px;
+            width: 284px;
+            font-size: 18px;
+            background-color: rgb(106,162,224);
+            border: 0;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .login_outer {
+            float: right;
+            margin-right: 30px;
+            margin-bottom: 12px;
+            margin-top: 20px;
+        }
+
+        .login_outer a{
+            text-decoration: none;
+            color: #1D5494;
+        }
+
+        .login_outer a:hover {
+            text-decoration: underline;
+        }
+
+        #tab1 {
+            float: left;
+            size: 16px;
+            margin-left:45px;
+            cursor: pointer;
+        }
+
+        #tab2 {
+            float: right;
+            size: 16px;
+            margin-right:45px;
+            cursor: pointer;
+        }
+
+        .footer {
+            width: 100%;
+            height: 35px;
+            background-color: #eff4fa;
+            border-top: 1px solid #d6dfea;
+            text-align: center;
+            line-height: 35px;
+
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: fixed;
+            /*设置左右下固定*/
+        }
+
+        .footer a{
+            color: #1D5494;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-text {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <a href="file:///D:/github_project/webstudy-feidian/%E5%AE%9E%E4%BE%8B%E7%BB%83%E4%B9%A0/QQ%E9%82%AE%E7%AE%B1/index.html"><img src="QQMail.png" alt="QQMail_logo"></a>
+            <div>
+                <a href="http://mail.qq.com">简体中文</a>&nbsp;&nbsp;|
+                <a href="http://exmail.qq.com/en">Business Mail</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content_wrapper">
+                <div class="text">
+                    <p id="text-title">QQMail, Keep us in Touch!</p>
+                    <p>From tomorrow on,</p>
+                    <p>Write to each of my dear ones,</p>
+                    <p>Telling them of my happiness what the</p>
+                    <p>lightening of happiness has told me.</p>
+                    <p>I will spread it to each of them.</p>
+                    <p>-- Hai Zi (1964-1989)</p>
+                </div>
+            </div>
+            <div class="login">
+                <ul class="choose-ways">
+                    <li id="tab1">Quick Sign-in</li>
+                    <li id="tab2">Different ID</li>
+                </ul>
+                <form action="" class="login_form">
+                    <input type="text" name=login_name, id="login_text" placeholder="QQ/Email/Mobile"><br>
+                    <input type="password" name=login_password, id="login_password", placeholder="QQ password"><br>
+                    <input type="checkbox" name="remember" id="login_remember" title="For safe reasons, do not check this option if you using a public computer."> <span title="For safe reasons, do not check this option if you using a public computer.">Remember me</span><br>
+                    <input type="submit" value="Sign In" id="login_submit"><br>
+                </form>
+                <div class="login_outer">
+                    <a href="https://aq.qq.com/v2/uv_aq/html/reset_pwd/pc_reset_pwd_input_account.html?v=3.0&old_ver_account=">Forgot password?</a>&nbsp;<span class="footer-text">|</span>
+                    <a href="https://ssl.zc.qq.com/v3/index-en.html">Sign Up</a>&nbsp;<span class="footer-text">|</span>
+                    <a href="https://aq.qq.com/v2/uv_aq/html/reset_pwd/pc_reset_pwd_input_account.html?v=3.0&old_ver_account="">Feedback</a>
+                </div>
+            </div>  
+        </div>
+        <div class="footer">
+            <a href="">About Tencent</a>&nbsp;<span class="footer-text">|</span>
+            <a href="">Teams of Service</a>&nbsp;<span class="footer-text">|</span>
+            <a href="">Privacy Policy</a>&nbsp;<span class="footer-text">|</span>
+            <a href="">Contact Us</a>&nbsp;<span class="footer-text">|</span>
+            <span class="footer-text">©1998 - 2020 Tencent Inc. All Rights Reserved.</span>
+        </div>
+    </div>
+</body>
+</html>
